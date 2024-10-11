@@ -213,11 +213,21 @@ ul {
   background-position: 0 -50%;
   background-repeat: repeat-x;
   transition: background-position 0.75s ease;
+  
 }
 .button-water-fill .button:hover {
-  background-position: 100% 60%;
-  color: black !important;
+  /* background-position: 100% 60%;
+  color: black !important; */
   font-family: mincraft;
+  cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    user-select: none;
+    background: #999 url(https://i.ibb.co/rb2TWXL/bgbtn.png) center / cover;
+    image-rendering: pixelated;
+    border: 2px solid #000;
+}
+
 }
 .button-water-fill.wave-black .button {
   color: black;
@@ -238,8 +248,22 @@ details summary:hover{
 }
 nav li:hover{
   font-family: mincraft;
-
+  cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    user-select: none;
+    background: #999 url(https://i.ibb.co/rb2TWXL/bgbtn.png) center / cover;
+    image-rendering: pixelated;
+    padding: 5px 10px 5px 10px;
 }
+
+
 .slected{
   font-family: mincraft;
+  cursor: pointer;
+  overflow: hidden;
+  white-space: nowrap;
+  user-select: none;
+  background: #999 url(https://i.ibb.co/rb2TWXL/bgbtn.png) center / cover;
+  image-rendering: pixelated;
 }
