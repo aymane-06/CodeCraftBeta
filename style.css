@@ -89,7 +89,10 @@ p.intro-des span {
 }
 .nav .nav-item,
 .navbar .nav-item {
-  padding: 5px 0;
+  text-align: center;
+  padding: 5px 10px 5px 20px;
+  
+
 }
 .nav .nav-item:after,
 .navbar .nav-item:after {
@@ -103,11 +106,11 @@ p.intro-des span {
   transition: top 0.3s ease-out;
   -webkit-transition: top 0.3s ease-out;
 }
-.nav .nav-item:hover:after,
+/* .nav .nav-item:hover:after,
 .navbar .nav-item:hover:after {
   top: 7px;
   background: #3c3c3c;
-}
+} */
 
 .active:after {
   height: 2px !important;
@@ -226,6 +229,7 @@ ul {
     background: #999 url(./images/bgbtn.png) center / cover;
     image-rendering: pixelated;
     border: 2px solid #000;
+    box-shadow: inset -2px -4px #0006, inset 2px 2px #FFF7;
 }
 
 }
@@ -248,22 +252,23 @@ details summary:hover{
 }
 nav li:hover{
   font-family: mincraft;
-  cursor: pointer;
-    overflow: hidden;
-    white-space: nowrap;
-    user-select: none;
-    background: #999 url(./images/bgbtn.png) center / cover;
-    image-rendering: pixelated;
-    padding: 5px 10px 5px 10px;
+  padding-bottom: 0.3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #DDD;
+  box-shadow: inset -2px -4px #0006, inset 2px 2px #FFF7;
+  background: #999 url(./images/bgbtn.png) center / cover;
 }
 
 
 .slected{
   font-family: mincraft;
-  cursor: pointer;
-  overflow: hidden;
-  white-space: nowrap;
-  user-select: none;
+  padding-bottom: 0.3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #DDD;
+  box-shadow: inset -2px -4px #0006, inset 2px 2px #FFF7;
   background: #999 url(./images/bgbtn.png) center / cover;
-  image-rendering: pixelated;
 }
