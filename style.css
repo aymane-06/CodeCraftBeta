@@ -170,6 +170,7 @@ ul {
   -webkit-perspective: 1000px;
   -ms-perspective: 1000px;
   perspective: 1000px;
+  box-shadow: inset -2px -4px #0006, inset 2px 2px #FFF7;
 }
 .button-container .flipper {
   transition: all 0.5s ease-in-out;
